@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ecommerce</title>
+   <link rel="stylesheet" href="../estilos/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <header class="encabezamiento"> 
+        <a href="../index.html">
+            <img src="../imagenes/logo1.jpg" class="logo" alt="Logo tienda" width="40" height="40">
+        </a>
+        <nav class="barra-de-navegacion">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="nosotros.html" class="active">Blog</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li>
+                    <a href="carrito.html">
+                        <i class="fi fi-rs-bags-shopping"></i>
+                        <span class="contador-carrito">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="movil">
+            <a href="carrito.html">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="encabezado-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Conocé nuestra historia y el compromiso detrás de cada producto</p>
+        </section>
+
+        <section class="seccion-historia">
+            <div class="historia-contenedor">
+                <div class="historia-imagen">
+                    <img src="../imagenes/logo1.jpg" alt="Lavander Studio">
+                </div>
+                <div class="historia-texto">
+                    <span>QUIÉNES SOMOS</span>
+                    <h3>Tecnología, estilo y calidad en un solo lugar</h3>
+                    <p>En Lavander Studio nacimos con la idea de acercar los mejores productos de electrónica, accesorios y moda a todo el país, combinando precios accesibles con una atención cercana y personalizada.</p>
+                    <p>Creemos que comprar por internet tiene que ser simple, rápido y seguro. Por eso seleccionamos cada artículo pensando en tu día a día y te acompañamos antes, durante y después de tu compra.</p>
+                    
+                    <div class="beneficios-lista">
+                        <div class="beneficio-item">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <span>Envíos rápidos</span>
+                        </div>
+                        <div class="beneficio-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>Compra protegida</span>
+                        </div>
+                        <div class="beneficio-item">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>Atención 24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-resenas">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p>La confianza de quienes ya nos eligieron es nuestra mejor presentación</p>
+            
+            <div class="resenas-contenedor">
+                
+                <div class="resena-card">
+                    <img src="../imagenes/personas/persona1.jpg.jfif" alt="Foto de Camila">
+                    <h5>Camila Fernández</h5>
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Compré los auriculares inalámbricos y llegaron súper rápido. La calidad de sonido es increíble y la atención excelente."</p>
+                </div>
+
+                <div class="resena-card">
+                   <img src="../imagenes/personas/persona2.jpg.jfif" alt="Foto de Lucas">
+                    <h5>Lucas Gómez</h5>
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Excelentes precios y muy fácil de comprar desde la web. El smartphone vino perfectamente embalado. ¡Súper recomendable!"</p>
+                </div>
+
+                <div class="resena-card">
+                    <img src="../imagenes/personas/persona3.jpg" alt="Foto de Marta">
+                    <h5>Marta Rodríguez</h5>
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>"Tuve una consulta antes de comprar la tablet y me respondieron al instante. Sin dudas volvería a elegir esta tienda."</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="../index.html">Volver</a>
+        <div class="footer-contenido">
+            <p>&copy; 2026 - Todos los derechos reservados | Lavander Studio ecommerce - Osuna Eugenia</p>
+        </div>
+        <br>
+        <div class="container-redes">
+             <i class="fi fi-brands-instagram"></i>
+             <i class="fi fi-brands-facebook"></i>
+             <i class="fi fi-brands-whatsapp"></i>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
